@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://tradearc.laserdeathstehr.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="./TradeArc_files/d3.js"></script>
+	<script type="text/javascript" src="./TradeArc_files/knockout-2.1.0.js"></script>
+	<script type="text/javascript" src="./TradeArc_files/jquery.min.js"></script>
+
+	
+
+	<link href="http://tradearc.laserdeathstehr.com/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+	 <link href="http://tradearc.laserdeathstehr.com/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8053226-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<title>TradeArc</title>
+	
+<link id="replaceMissingFavicon" rel="icon" href="http://www.gravatar.com/avatar/6ee80fe47f7c01be15e0b7417e504ca1?s=16&d=identicon" data-debug="http://tradearc.laserdeathstehr.com/"></head>
+
+<body class="preview" data-spy="scroll" data-target=".subnav" data-offset="50" style="zoom: 1;"><div class="container">
+
+    
+		
+		<div class="row">
+		  <span class="span12"><h1>TradeArc</h1></span>
+		</div>
+		 
+		
+		<div class="row">
+			<div class="span8">
+			 <p class="lead">NHL trades that have taken place since June 15 2012</p>
+			 <p class="lead"><em>Click arc for trade details, or hover over a team to highlight its trades.</em></p>
+			</div>
+		  <div class="span4"><div class="well" style="height: 100px">
+		     
+		   <p><strong data-bind="text: tradeDate"></strong></p>
+			   <div class="row">	
+				<div class="span2">
+				<img data-bind="attr: {src: teamA}">
+				<ul class="unstyled" data-bind="foreach: teamACompensation"></ul>
+				</div>
+				
+			<div class="pull-right">
+				<img data-bind="attr: {src: teamB}">
+				<ul class="unstyled" data-bind="foreach: teamBCompensation"></ul>
+			</div>
+				
+		     </div>
+		</div>
+		</div>
+	
+	<div id="trades" class="span8"><svg class="chart" width="1100" height="768"><g><image y="537.5999999999999" x="0" width="60px" height="31px" href="http://cdn.nhl.com/predators/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="50" width="60px" height="31px" href="http://cdn.nhl.com/capitals/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="100" width="60px" height="31px" href="http://cdn.nhl.com/senators/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="150" width="60px" height="31px" href="http://cdn.nhl.com/stars/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="200" width="60px" height="31px" href="http://cdn.nhl.com/hurricanes/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="250" width="60px" height="31px" href="http://cdn.nhl.com/panthers/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="300" width="60px" height="31px" href="http://cdn.nhl.com/mapleleafs/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="350" width="60px" height="31px" href="http://cdn.nhl.com/sharks/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="400" width="60px" height="31px" href="http://cdn.nhl.com/ducks/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="450" width="60px" height="31px" href="http://cdn.nhl.com/bluejackets/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="500" width="60px" height="31px" href="http://cdn.nhl.com/islanders/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="550" width="60px" height="31px" href="http://cdn.nhl.com/flames/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="600" width="60px" height="31px" href="http://cdn.nhl.com/coyotes/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="650" width="60px" height="31px" href="http://cdn.nhl.com/bruins/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="700" width="60px" height="31px" href="http://cdn.nhl.com/kings/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="750" width="60px" height="31px" href="http://cdn.nhl.com/jets/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="800" width="60px" height="31px" href="http://cdn.nhl.com/flyers/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="850" width="60px" height="31px" href="http://cdn.nhl.com/penguins/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="900" width="60px" height="31px" href="http://cdn.nhl.com/sabres/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="950" width="60px" height="31px" href="http://cdn.nhl.com/blackhawks/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="1000" width="60px" height="31px" href="http://cdn.nhl.com/rangers/images/logos/medium.png" style="opacity: 1;"></image><image y="537.5999999999999" x="1050" width="60px" height="31px" href="http://cdn.nhl.com/lightning/images/logos/medium.png" style="opacity: 1;"></image></g><g><path d="M180,537.5999999999999 A 375,375 0 0 1 930,537.5999999999999" stroke="#3182bd" stroke-width="10" fill="none" style="opacity: 1;"></path><path d="M130,537.5999999999999 A 175,175 0 0 1 480,537.5999999999999" stroke="#6baed6" stroke-width="5" fill="none" style="opacity: 1;"></path><path d="M80,537.5999999999999 A 250,250 0 0 1 580,537.5999999999999" stroke="#9ecae1" stroke-width="10" fill="none" style="opacity: 1;"></path><path d="M330,537.5999999999999 A 250,250 0 0 1 830,537.5999999999999" stroke="#c6dbef" stroke-width="5" fill="none" style="opacity: 1;"></path><path d="M30,537.5999999999999 A 125,125 0 0 1 280,537.5999999999999" stroke="#e6550d" stroke-width="5" fill="none" style="opacity: 1;"></path><path d="M180,537.5999999999999 A 275,275 0 0 1 730,537.5999999999999" stroke="#fd8d3c" stroke-width="5" fill="none" style="opacity: 1;"></path><path d="M30,537.5999999999999 A 500,500 0 0 1 1030,537.5999999999999" stroke="#fdae6b" stroke-width="5" fill="none" style="opacity: 1;"></path><path d="M30,537.5999999999999 A 500,500 0 0 1 1030,537.5999999999999" stroke="#fdd0a2" stroke-width="5" fill="none" style="opacity: 1;"></path><path d="M380,537.5999999999999 A 300,300 0 0 1 980,537.5999999999999" stroke="#31a354" stroke-width="10" fill="none" style="opacity: 1;"></path><path d="M330,537.5999999999999 A 225,225 0 0 1 780,537.5999999999999" stroke="#74c476" stroke-width="5" fill="none" style="opacity: 1;"></path><path d="M680,537.5999999999999 A 200,200 0 0 1 1080,537.5999999999999" stroke="#a1d99b" stroke-width="10" fill="none" style="opacity: 1;"></path><path d="M630,537.5999999999999 A 125,125 0 0 1 880,537.5999999999999" stroke="#c7e9c0" stroke-width="15" fill="none" style="opacity: 1;"></path><path d="M580,537.5999999999999 A 175,175 0 0 1 930,537.5999999999999" stroke="#756bb1" stroke-width="10" fill="none" style="opacity: 1;"></path><path d="M230,537.5999999999999 A 325,325 0 0 1 880,537.5999999999999" stroke="#9e9ac8" stroke-width="15" fill="none" style="opacity: 1;"></path><path d="M80,537.5999999999999 A 50,50 0 0 1 180,537.5999999999999" stroke="#bcbddc" stroke-width="10" fill="none" style="opacity: 1;"></path><path d="M430,537.5999999999999 A 50,50 0 0 1 530,537.5999999999999" stroke="#dadaeb" stroke-width="5" fill="none" style="opacity: 1;"></path><path d="M480,537.5999999999999 A 175,175 0 0 1 830,537.5999999999999" stroke="#636363" stroke-width="15" fill="none" style="opacity: 1;"></path><path d="M30,537.5999999999999 A 525,525 0 0 1 1080,537.5999999999999" stroke="#969696" stroke-width="25" fill="none" style="opacity: 1;"></path></g></svg></div>
+	<script type="text/javascript" src="./TradeArc_files/visualize.js"></script>
+	
+</div>
+</div><style class="ublock-postload-1ae7a5f130fc79b4fdb8a4272d9426b5">.container > .infoBoxList > .shareInfoBox
+{display:none !important;}</style></body></html>
